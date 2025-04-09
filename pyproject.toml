@@ -1,0 +1,16 @@
+[project]
+name = "mcp-getting-started"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "httpx>=0.28.1",
+    "lxml",
+    "mcp[cli]>=1.6.0",
+    "openai>=1.72.0",
+]
+
+[tool.uv.workspace]
+members = ["mcp_getting_started"]
